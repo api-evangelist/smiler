@@ -1,7 +1,28 @@
 aid: smiler
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smiler.png
 name: Smiler
-description: Smiler is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Smiler is an Amsterdam-based on-the-spot photography marketplace that connects
+  travelers and consumers with a network of professional freelance photographers
+  at popular tourist hotspots and leisure locations worldwide. Founded in 2020,
+  Smiler lets people book fast, affordable photoshoots in advance across 100+
+  destinations, with photos delivered within 48 hours and free cancellation up
+  to 24 hours before the shoot. The company also operates the Smiler Photographer
+  Suite, an all-in-one tool for photographers to build portfolio websites, manage
+  bookings, deliver mobile-friendly client galleries, and handle payments. Smiler
+  is trusted by tens of thousands of photographers across 50+ countries and is
+  backed by Speedinvest, Mosaic Ventures, Dutch Founders Fund, and PROfounders.
 url: https://raw.githubusercontent.com/api-evangelist/smiler/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Photography
+- Marketplace
+- Consumer
+- Travel
+- Booking
+- Two-Sided Marketplace
+- Netherlands
 apis: []
+common:
+- type: DomainSecurity
+  url: security/smiler-domain-security.yml
+- type: Website
+  url: https://smiler.co/
+- type: Blog
+  url: https://smiler.co/blog
+- type: TermsOfService
+  url: https://smiler.co/terms
+- type: PrivacyPolicy
+  url: https://smiler.co/privacy
+- type: Support
+  url: https://smiler.co/faq
+- type: SignUp
+  url: https://smiler.co/join
+- type: Login
+  url: https://photographer.smiler.co/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
